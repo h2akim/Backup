@@ -1,5 +1,5 @@
 {
-    "name": "h2akim/backupl41",
+    "name": "h2akim/backup",
     "description": "An easy way backup and restore databases in Laravel.",
     "keywords": ["laravel", "database", "backup", "restore", "dump"],
     "license": "MIT",
