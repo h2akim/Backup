@@ -7,6 +7,10 @@
         {
             "name": "Bradley Cornford",
             "email": "me@bradleycornford.co.uk"
+        },
+        {
+            "name": "Hakim Razalan",
+            "email": "akimrr@gmail.com"
         }
     ],
     "require": {
@@ -21,7 +25,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Cornford\\Backup": "src/"
+            "Hakim\\Backup": "src/"
         }
     },
     "minimum-stability": "stable"

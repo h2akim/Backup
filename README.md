@@ -1,9 +1,7 @@
 # An easy way backup and restore databases in Laravel.
 
-[![Latest Stable Version](https://poser.pugx.org/cornford/backup/version.png)](https://packagist.org/packages/cornford/backup)
-[![Total Downloads](https://poser.pugx.org/cornford/backup/d/total.png)](https://packagist.org/packages/cornford/backup)
-[![Build Status](https://travis-ci.org/bradcornford/Backup.svg?branch=master)](https://travis-ci.org/bradcornford/backup)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/bradcornford/Backup/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/bradcornford/Backup/?branch=master)
+Fork from Cornford/Backup
+* Add Laravel 4.1 Support
 
 Think of Backup as an easy way to backup and restore a database, with command line integration to Laravel's artisan. These include:
 
