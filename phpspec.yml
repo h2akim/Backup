@@ -1,5 +1,5 @@
 suites:
-  cornford_suite:
-    namespace: Cornford
+  hakim_suite:
+    namespace: Hakim
     src_path: src
     spec_prefix: spec
