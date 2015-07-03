@@ -28,7 +28,7 @@ Think of Backup as an easy way to backup and restore a database, with command li
 Begin by installing this package through Composer. Edit your project's `composer.json` file to require `cornford/backup`.
 
 	"require": {
-		"cornford/backup": "1.*"
+		"h2akim/backup": "dev-master"
 	}
 
 Next, update Composer from the Terminal:
@@ -37,15 +37,15 @@ Next, update Composer from the Terminal:
 
 Once this operation completes, the next step is to add the service provider. Open `app/config/app.php`, and add a new item to the providers array.
 
-	'Cornford\Backup\Providers\BackupServiceProvider',
+	'H2akim\Backup\Providers\BackupServiceProvider',
 
 The next step is to introduce the facade. Open `app/config/app.php`, and add a new item to the aliases array.
 
-	'Backup'         => 'Cornford\Backup\Facades\Backup',
+	'Backup'         => 'H2akim\Backup\Facades\Backup',
 
 Finally we need to introduce the configuration files into your application.
 
-	php artisan config:publish cornford/backup
+	php artisan config:publish h2akim/backup
 
 That's it! You're all set to go.
 
